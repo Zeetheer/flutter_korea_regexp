@@ -21,6 +21,10 @@ List<dynamic> postPositions = [
           ]
         ]);
 
+///Automatic Replacement of Particle
+///조사 자동 치환
+///
+///'전쟁와(과) 평화' -> '전쟁과 평화'
 correctPostpositions(String text) {
   return postPositions.fold<String>(text, (previousValue, element) {
     return previousValue.replaceAllMapped(element[0], (match) {
