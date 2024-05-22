@@ -1,5 +1,8 @@
 import 'package:korea_regexp/src/constant.dart';
 
+///초성 -> 종성
+///
+///'ㅇㅏㄴㄴㅕㅇ' -> '안녕'
 String implode(String input) {
   /// 인접한 모음을 하나의 복합 모음으로 합친다.
   final letters = mixMedial(input.split(''));
