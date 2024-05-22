@@ -2,7 +2,7 @@ import 'package:korea_regexp/src/constant.dart';
 import 'package:korea_regexp/src/get_phonemes.dart';
 import 'package:korea_regexp/src/models/phonemes_result.dart';
 
-///종성 -> 초성
+///자소 분리
 ///
 ///'안녕' -> 'ㅇㅏㄴㄴㅕㅇ'
 explode(String text, {bool grouped = false}) {
