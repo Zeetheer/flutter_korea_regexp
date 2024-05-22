@@ -1,6 +1,6 @@
 import 'package:korea_regexp/src/constant.dart';
 
-///초성 -> 종성
+///자소 합치기
 ///
 ///'ㅇㅏㄴㄴㅕㅇ' -> '안녕'
 String implode(String input) {
