@@ -3,7 +3,6 @@ import 'package:korea_regexp/src/implode.dart';
 
 final enToKr = { for (var e in keys) e.last : e.first };
 
-///English typing -> Korean typing
 ///영타 -> 한타
 
 /// 'dkssud' -> '안녕'
