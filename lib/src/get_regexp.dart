@@ -3,6 +3,9 @@ import 'package:korea_regexp/src/escape_regexp.dart';
 import 'package:korea_regexp/src/get_phonemes.dart';
 import 'package:korea_regexp/src/models/regexp_options.dart';
 
+///초성으로 검색 여부
+///
+///'ㄱㅇㄷ' -> '강원도'(검색 리스트에 있는 단어)
 getInitialSearchRegExp(String initial, {bool allowOnlyInitial = false}) {
   var initialOffset = initials.indexOf(initial);
   if (initialOffset != -1) {
